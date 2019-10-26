@@ -1,0 +1,227 @@
+@import
+url('https://fonts.googleapis.com/css?family=Acme:200,300,400,500,600');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	background: #222;
+	font-family: 'Acme', sans-serif;
+	text-align:center;
+	font-weight: 300;
+}
+
+/* typography ------------------------------------ */
+h1{
+	color: #4ABAFF;
+	font-weight: 600;
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+h2{
+	color: #FFF;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 38px;
+}
+
+h3{
+	color: #000;
+	font-weight: 400;
+	font-size: 32px;
+	padding: 0;
+	margin: 1em 0 0 0;
+}
+
+h4{
+	color: #000;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+h6{
+	margin: 15px 0 0;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 200;
+}
+
+p{
+	color: #FFF;
+	font-weight: 200;
+	font-size: 1.2rem;
+}
+
+
+
+
+/* header ------------------------------------ */
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+header{
+	background: #4ABAFF;
+}
+
+header::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.logo{
+	float: left;
+	padding: 10px 0;
+}
+
+nav{
+	float: right;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block; /* similar to float: left;*/
+	margin-left: 70px;
+	padding-top: 25px;
+	position: relative;
+}
+
+nav a{
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 200;
+}
+
+nav a:hover{
+	color: #FFF;
+}
+
+nav a::before{
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #FFF;
+	
+	position: absolute;
+	top: 0;
+	width: 0%;
+	
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+	width: 100%;
+}
+
+/*buttons ---------------------------*/
+.button{
+	display: inline-block;
+	font-size: 1.15rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 2px;
+	border-style: solid;
+	padding: .5em 1.75em;
+	text-align: center;
+	float: center;
+}
+
+.button-accent{
+	color: #4ABAFF;
+	border-color: #4ABAFF;
+}
+
+.button-accent:hover,
+.button-accent:focus{
+	background: #4ABAFF;
+	color: #444;
+	
+	transition: all ease-in-out 300ms;
+}
+
+
+/* home page ------------------------------------ */
+.home{
+	background-image: url(./Images/homeimg.JPG);
+	background-size: cover;
+	background-position: center;
+	padding: 16em 0;
+}
+
+
+
+/* about ------------------------------------ */
+.about-textbox{
+	background-color: #444;
+	padding: 4em;
+	outline: 2px solid #FFF;
+	outline-offset: -2em;
+	text-align: justify;
+}
+
+.officers-1920{
+	background-color: #4ABAFF;
+	margin-top: 50px;
+	padding: 1.5em;
+	display: inline-block;
+	text-align: center;
+	outline: 1px solid #FFF;
+	outline-offset: 0.5em;
+}
+
+.col{
+	margin: 5px;
+	padding: 25px 5px;
+	float: left;
+}
+
+.previous-officers{
+	background-color: #444;
+	margin-top: 50px;
+	padding: 1.5em;
+	display: inline-block;
+	text-align: center;
+	outline: 1px solid #FFF;
+	outline-offset: 0.5em;
+}
+
+.previous-officers h4{
+	color: #FFF;
+}
+
+/* gallery ------------------------------------ */
+.previous-performances{
+	margin: 0 26.5em 0.5em;
+	padding: 25px 5px;	
+	float: center;
+}
+
+.photos{
+	background-color: #444;
+	margin-top: 50px;
+	padding: 1.5em;
+	display: inline-block;
+	text-align: center;
+	outline: 5px solid #FFF;
+	outline-offset: -1em;
+}
+
+.
+
+
+
+
