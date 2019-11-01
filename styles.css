@@ -156,7 +156,7 @@ nav a:hover::before{
 
 /* home page ------------------------------------ */
 .home{
-	background-image: url(Images/homeimg.JPG) repeat 0 0;
+	background-image: url('../../backimg.jpg');
 	background-size: cover;
 	background-position: center;
 	padding: 16em 0;
