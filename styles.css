@@ -72,6 +72,8 @@ img{
 
 header{
 	background: #4ABAFF;
+	position: fixed;
+	width: 100%;
 }
 
 header::after{
@@ -86,7 +88,13 @@ header::after{
 }
 
 nav{
-	float: right;
+	/*float: right;*/
+	position: absolute;
+	text-align: left;
+	top: 100%;
+	left: 0;
+	background: #4ABAFF;
+	width: 100%;
 }
 
 nav ul{
@@ -97,7 +105,8 @@ nav ul{
 
 nav li{
 	display: inline-block; /* similar to float: left;*/
-	margin-left: 70px;
+	margin-left: 1em;
+	margin-bottom: 1em;
 	padding-top: 25px;
 	position: relative;
 }
@@ -106,8 +115,9 @@ nav a{
 	color: #444;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 1.2rem;
 	font-weight: 200;
+	width: 100%;
 }
 
 nav a:hover{
@@ -131,6 +141,8 @@ nav a::before{
 nav a:hover::before{
 	width: 100%;
 }
+
+/*responsive nav bar*/
 
 /*buttons ---------------------------*/
 .button{
