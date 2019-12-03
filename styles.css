@@ -214,14 +214,19 @@ nav a:hover::before{
 
 /* gallery ------------------------------------ */
 .previous-performances{
-	margin: 0 26.5em 0.5em;
-	padding: 25px 5px;	
+	padding: 25px 5px;
+	float: center;
+}
+
+.col2{
+	margin: 5px;
+	padding: 10px 5px;
 	float: center;
 }
 
 .photos{
 	background-color: #444;
-	margin-top: 50px;
+	margin-top: 3em;
 	padding: 1.5em;
 	display: inline-block;
 	text-align: center;
