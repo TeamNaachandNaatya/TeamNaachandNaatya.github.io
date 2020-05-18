@@ -164,11 +164,11 @@ nav a:hover::before{
 
 /* home page ------------------------------------ */
 .home{
-	/*background-image: url('../../Images/GroupPic2020.jpg');*/
-	background-image: url(../Images/homeimg.jpg);
+	background-image: url('../../Images/GroupPic2020.jpg');
+	/*background-image: url(../Images/homeimg.jpg);*/
 	background-size: cover;
 	background-position: center;
-	padding: 16em 0;
+	/*padding: 16em 0;*/
 }
 
 
