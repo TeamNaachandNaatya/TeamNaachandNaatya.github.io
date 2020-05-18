@@ -165,7 +165,7 @@ nav a:hover::before{
 /* home page ------------------------------------ */
 .home{
 	/*background-image: url('../../Images/GroupPic2020.jpg');*/
-	background-image: url(Images/GroupPic2020.JPG);
+	background-image: url(GroupPic2020.JPG);
 	background-size: cover;
 	background-position: center;
 	/*padding: 16em 0;*/
