@@ -195,7 +195,7 @@ nav a:hover::before{
 .col{
 	margin: 5px;
 	padding: 25px 5px;
-	float: left;
+	float: center;
 }
 
 .previous-officers{
